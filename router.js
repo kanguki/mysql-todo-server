@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const EventController = require('./Controllers/EventController')
+const EventController = require('./Controllers/TodoController')
 
 
 router.get('/salute', (req, res) => {
